@@ -1,4 +1,12 @@
 ### VS Code ###
 .vscode/
 
-!**/input.txt
+
+#增加指定扩展名文件和Makefile文件
+*
+!*.cpp
+!*.c
+!*.h
+!Makefile
+!/chapter3/
+!*.md
